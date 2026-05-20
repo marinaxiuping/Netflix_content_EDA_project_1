@@ -296,7 +296,7 @@ The EDA reveals several strategic insights:
 Move into the source folder:
 
 ```bash
-cd src
+cd proyecto_1
 ```
 
 Run the main script:
