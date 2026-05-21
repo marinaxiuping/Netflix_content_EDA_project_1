@@ -1,5 +1,4 @@
-import pandas as pd  # type: ignore  # Fix: some linters may not resolve installed packages
-
+import pandas as pd  # type: ignore
 
 def build_features(df):
     """Create new features for analysis."""
@@ -55,3 +54,13 @@ def categorize_duration(df):
 
 
     return df
+
+def genre_year(df):
+    df['main_genre'] = df['listed_in'].str.split(',').str[0]
+
+    genre_year = (
+        df.groupby(['year_added', 'main_genre'])
+        .size()
+        .reset_index(name='count')
+    )
+    return genre_year
