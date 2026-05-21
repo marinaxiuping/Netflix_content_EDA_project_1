@@ -1,4 +1,4 @@
-# Netflix_content_EDA_project_MDS
+# Netflix_content_EDA_project_1
 
 ## Project Overview
 
@@ -62,7 +62,7 @@ project/
 ## 1. Clone the repository
 
 ```bash
-git clone <https://github.com/marinaxiuping/Netflix_content_EDA_project_MDS>
+git clone <https://github.com/marinaxiuping/Netflix_content_EDA_project_1>
 ```
 
 ---
@@ -238,7 +238,7 @@ TV-MA is among the most common ratings, indicating strong adult-oriented content
 
 ---
 
-# 7. Movie Duration Analysis
+# 5. Movie Duration Analysis
 
 ### Goal
 Study movie duration patterns.
@@ -258,7 +258,7 @@ Most movies last between 80 and 120 minutes.
 
 ---
 
-# 7. Movies vs Series Through Time
+# 6. Movies vs Series Through Time
 
 ### Goal
 Compare growth between content types.
